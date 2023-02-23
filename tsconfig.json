@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": false,
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "noEmit": false,
+    "target": "es6"
+  },
+  "lib": [
+    "es6",
+  ]
+}
