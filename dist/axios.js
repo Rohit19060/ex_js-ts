@@ -1,8 +1,9 @@
 "use strict";
 const baseURL = "https://reqres.in/api";
 const getAxiosData = () => {
-    axios.get(`${baseURL}/users`).then((response) => console.log(response));
+    axios.get(`${baseURL}/users`).then((response) => console.log(response)).catch((err) => console.log(err, err.response));
 };
+
 const sendAxiosData = () => {
     axios
         .post(
