@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
+    "strict": true,
+    "allowJs": true,
+    "checkJs": true,
     "outDir": "./dist/",
+    "forceConsistentCasingInFileNames": true,
     "sourceMap": false,
     "noImplicitAny": false,
     "module": "commonjs",
